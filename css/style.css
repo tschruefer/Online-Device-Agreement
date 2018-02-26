@@ -1,0 +1,100 @@
+body p {
+	background-color: white;
+	background-size: cover;
+    margin: 0 0 20px;
+	text-align: left;
+	position: left;
+	}
+body {
+	background-image: url("../images/loosleaf.gif");
+	background-repeat: repeat-y;
+    font-family: "Arial Black", Gadget, sans-serif;
+	}
+h1, h2 {
+	display: block;
+    text-align: center;
+    color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+    }
+h3 {
+	display: block;
+    text-align: center;
+    color: red;
+	font-family: Tahoma, Geneva, sans-serif;
+    }
+body h4 {
+	display: block;
+	text-align: center;
+	color: red;
+	font-family: "Times New Roman", serif;
+}
+#header img {
+	vertical-align:center;
+    float: left;
+    width: 212px;
+    height: 89px;
+    background: #555;
+    }
+#header h1 h2 {
+    text-align:left;
+	overflow:auto;
+    top: 18px;
+    left: 10px;
+	margin: 0 auto;
+	background: #f0f0f0;
+    }
+.session-variables p, br{
+	text_align: left;
+	float: left;
+}
+.footer {
+    position: bottom;
+    bottom: 20px;
+    height: 20px;
+    background: #f0f0f0;
+    width: 98%;
+    } 
+/*input[type=text] {
+    padding: 12px 20px;
+	background-color: lightyellow;
+    margin: 8px 0;
+    box-sizing: border-box;
+	border-radius: 4px;
+    } */
+table, th, td {
+    border: 0px solid black;
+	border-collapse: collapse;
+	border-bottom: 1px solid #ddd;
+	margin: auto;
+}
+table input {
+/*  input[type="checkbox"]:required:invalid + label { color: red; }  */
+  input[type="checkbox"]:required:valid + label { color: green; };
+  text-align: center;
+  vertical-align:top;
+} 
+.form-field {
+	clear: both;
+	padding: 10px;
+	width: 350px;
+}
+.form-field label {
+	float: left;
+	width: 150px;
+	text-align: right;
+}
+.form-field input {
+	float: left;
+	width: 150px;
+	text-align: left;
+}
+    .button {
+        appearance: button;
+        -moz-appearance: button;
+        -webkit-appearance: button;
+        text-decoration: none; 
+        font: menu; 
+        color: ButtonText;
+        display: inline-block; 
+        padding: 2px 8px;
+    }
